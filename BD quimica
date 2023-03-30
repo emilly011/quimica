@@ -1,0 +1,14 @@
+CREATE TABLE students (
+  iano INTO PRIMARY KEY,
+  eventos VARCHAR(30) NOT NULL,
+  localidade CHAR(1) NOT NULL
+  descriçao VARCHAR (255)NOT NULL,
+);
+-- insert some values
+INSERT INTO quimica VALUES (1986, 'explosao do reator 4 usina', 'ucrania', 'acidente na cidade de chernolbyl');
+INSERT INTO quimica VALUES (1898, 'marie e pierre curie', 'frança', 'na Academia Francesa de Ciências ');
+INSERT INTO quimica VALUES (1866, 'primeira lei de mendel', 'australia', 'realizando experimentos com ervilhas');
+INSERT INTO quimica VALUES(1996,'explosao de vazamento de gas', 'brasil','shopping osasco');
+INSERT INTO quimica VALUES(1939, 'euthanasia','alemanha','armas de gas para matarem pessoas');
+-- fetch some values
+SELECT * FROM students WHERE gender = 'F';
